@@ -9,6 +9,7 @@ def substring(s:str) -> int:
             count += 1
     return count
 
+
 # length function, creation of set, slicing will take more memory and time.
 # Hence, always try to use primitive data structures.
 # Above function took 3ms in leetcode.
@@ -29,7 +30,6 @@ print(substring("aababcabc"))
 print(substring("abc"))
 print(substring("ab"))
 print(substring("abb"))
-
 
 print(substring_faster("xyzzaz"))
 print(substring_faster("aababcabc"))
