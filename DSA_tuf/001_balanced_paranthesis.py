@@ -1,7 +1,6 @@
 # If a list of parenthesis are given check if it is balanced or not
 # example ([{}()]) -> this is balanced.
 #         ([{}(])) -> not balanced
-from sqlalchemy import false
 
 
 def is_balanced(brackets):

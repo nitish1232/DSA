@@ -31,5 +31,5 @@ def evaluate_postfix_expression(expression):
 
 
 if __name__ == "__main__":
-    # print(evaluate_postfix_expression("12 5 3 * + 8 -"))
-    print(evaluate_postfix_expression("9 6 3 * +"))
+    print(evaluate_postfix_expression("12 5 3 * + 8 -"))
+    # print(evaluate_postfix_expression("9 6 3 * +"))
